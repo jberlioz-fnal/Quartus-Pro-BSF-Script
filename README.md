@@ -2,7 +2,9 @@
 
 ## **Overview**
 
-This python script automates the generation of Block Symbol Files (BSF) for Intel Quartus Prime Pro by utilizing Intel Quartus Standard's quartus_map.exe. The script is written in Python and allows users to generate BSF files without manually opening the Intel Quartus Standard interface.
+Eliminate the step of opening a random project in Intel Quartus Prime Standard to generate a measly bsf file for Intel Quartus Prime Pro. 
+
+This python script automates the generation of Block Symbol Files (BSF) for Intel Quartus Prime Pro by utilizing quartus_map.exe from an Intel Quartus Standard that is able to generate the bsf. The script is written in Python and allows users to generate BSF files without manually opening the Intel Quartus Standard interface.
 
 ## **Configuration**
 The script reads from a config.json file for necessary parameters. The structure of the config.json file is as follows:
@@ -25,6 +27,9 @@ Typical location: C:/intelFPGA/<version>/quartus/bin/
 3) output_dir: Specifies the directory where the generated BSF file will be saved. Note that this should be a directory path, not a file path.
 
 ## **Usage**
+**You will need an Intel Quartus that is able to generate bsf files.**
+You need to link this script with its quartus_map.exe command executable in the /bin/ folder of the quartus directory.
+
 1) Update config.json:
 - Set quartus_map.exe path to your specific Quartus Standard path.
 - Set the input_file_path to the HDL file you wish to generate a BSF file from.
@@ -33,5 +38,5 @@ Typical location: C:/intelFPGA/<version>/quartus/bin/
 
    
 ## **Disclaimer**
-This script does not perform any logical validation on the provided HDL files. Ensure that your HDL code is syntactically and semantically correct before running the script.
+This script does not perform any logical validation on the provided HDL files. It only produces the bsf file based on the module/component ports.
 
