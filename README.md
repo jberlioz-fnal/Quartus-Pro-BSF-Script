@@ -1,5 +1,5 @@
 # Quartus-Pro-BSF-Script
-Are you sick of opening Intel Quartus Standard and hog your computer resources to get a measly bsf file for Intel Quartus Prime Pro? Automate the transfer with python!
+Are you sick of opening Intel Quartus Standard to get a measly bsf file for Intel Quartus Prime Pro? Automate the transfer with python!
 
 Use a shell or python script to make your bsf file using the old quartus_map.exe in the intel folder.
 
