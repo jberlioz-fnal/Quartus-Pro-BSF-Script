@@ -1,5 +1,5 @@
 {
-    "quartus_map_path": "C:\\intelFPGA\\18.1\\quartus\\bin64\\quartus_map.exe",
-    "input_file_path": "C:\\test.v",
-    "output_dir": "C:\\outputFilePath(not folder!)"
+    "quartus_map_path": "D:\\intelFPGA\\18.1\\quartus\\bin64\\quartus_map.exe",
+    "input_file_path": "C:\\Users\\jberlioz-admin\\Cloud-Drive\\Quartus_20_4_Projects\\LLRF_SRS_WinAcc\\mu2e_srs\\srs\\mu2e_srs_top.bdf",
+    "output_dir": "C:\\Users\\jberlioz-admin\\Cloud-Drive\\Quartus_20_4_Projects\\LLRF_SRS_WinAcc\\mu2e_srs\\srs"
 }
