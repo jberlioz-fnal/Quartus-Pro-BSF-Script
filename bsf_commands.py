@@ -1,6 +1,6 @@
 import subprocess
 import os
-from .config import read_config
+from config import read_config
 
 #hdl to bsf
 def run_hdl():
