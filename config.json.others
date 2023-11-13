@@ -20,3 +20,9 @@
     "input_file_path": "C:\\Users\\jberlioz-admin\\Cloud-Drive\\Quartus_20_4_Projects\\LLRF_SRS_WinAcc\\carrier_board\\pulse_gain\\pulse_gain.v",
     "output_dir": "C:\\Users\\jberlioz-admin\\Cloud-Drive\\Quartus_20_4_Projects\\LLRF_SRS_WinAcc\\carrier_board\\pulse_gain"
 }
+
+{
+    "quartus_map_path": "/mnt/BitBarn/intelFPGA/18.1/quartus/bin/quartus_map",
+    "input_file_path": "/home/jberlioz/Documents/Hardware_Dev/FPGA_Dev/LLRF_SRS_WinAcc/mu2e_srs/srs/mu2e_timeline.vhd",
+    "output_dir": "/home/jberlioz/Documents/Hardware_Dev/FPGA_Dev/LLRF_SRS_WinAcc/mu2e_srs/srs/"
+}
