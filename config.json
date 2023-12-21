@@ -1,5 +1,5 @@
 {
     "quartus_map_path": "/mnt/BitBarn/tools/Altera/intelFPGA/18.1/quartus/bin/quartus_map",
-    "input_file_path": "/home/jberlioz/Documents/Hardware_Dev/FPGA_Dev/LLRF_SRS_WinAcc/mu2e_srs/srs/mu2e_srs_top.bdf",
-    "output_dir": "/home/jberlioz/Documents/Hardware_Dev/FPGA_Dev/LLRF_SRS_WinAcc/mu2e_srs/srs"
+    "input_file_path": "/home/jberlioz/Documents/Hardware_Dev/FPGA_Dev/LLRF_SRS_WinAcc/mu2e_srs/srs/initializer_param/srs_initialization.vhd",
+    "output_dir": "/home/jberlioz/Documents/Hardware_Dev/FPGA_Dev/LLRF_SRS_WinAcc/mu2e_srs/srs/initializer_param"
 }
