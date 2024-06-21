@@ -2,7 +2,8 @@ import subprocess
 import os
 from config import read_config
 
-#hdl to bsf
+
+# hdl to bsf
 def run_hdl():
     # Read the configuration
     config = read_config()
@@ -15,10 +16,10 @@ def run_hdl():
     # Change to the output directory
     os.chdir(output_dir)
 
-    compile_hdl(quartus_map_path,input_file_path)
-    generate_symbol(quartus_map_path,input_file_path)
+    compile_hdl(quartus_map_path, input_file_path)
+    generate_symbol(quartus_map_path, input_file_path)
 
-#bdf to bsf
+# bdf to bsf
 def run_bdf():
     # Read the configuration
     config = read_config()
@@ -51,6 +52,7 @@ def generate_symbol(quartus_map_path, input_file_path):
         "--generate_symbol={}".format(input_file_path)
     ]
     subprocess.run(command)
+
 
 def bdf2verilog(quartus_map_path, input_file_path):
     command = [
